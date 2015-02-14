@@ -1,11 +1,11 @@
 object FComplex: TFComplex
-  Left = 771
-  Height = 258
-  Top = 544
-  Width = 384
+  Left = 561
+  Height = 296
+  Top = 849
+  Width = 498
   Caption = 'Особая форма'
-  ClientHeight = 258
-  ClientWidth = 384
+  ClientHeight = 296
+  ClientWidth = 498
   LCLVersion = '1.2.6.0'
   object Label1: TLabel
     Left = 16
@@ -16,7 +16,7 @@ object FComplex: TFComplex
     ParentColor = False
   end
   object CBCompute: TButton
-    Left = 296
+    Left = 408
     Height = 47
     Top = 32
     Width = 75
@@ -41,18 +41,18 @@ object FComplex: TFComplex
     Caption = '-плотность-'
     ParentColor = False
   end
-  object Lbl_dRho: TLabel
+  object Lbl_devRho: TLabel
     Left = 16
     Height = 15
-    Top = 160
+    Top = 224
     Width = 77
     Caption = '-абсолютная-'
     ParentColor = False
   end
-  object Lbl_eps: TLabel
+  object Lbl_devRhorel: TLabel
     Left = 16
     Height = 15
-    Top = 192
+    Top = 256
     Width = 92
     Caption = '-относительная-'
     ParentColor = False
@@ -76,13 +76,13 @@ object FComplex: TFComplex
   object Lbl_found: TLabel
     Left = 16
     Height = 15
-    Top = 128
+    Top = 192
     Width = 63
     Caption = '-материал-'
     ParentColor = False
   end
   object Image1: TImage
-    Left = 240
+    Left = 354
     Height = 128
     Top = 104
     Width = 128
@@ -806,5 +806,53 @@ object FComplex: TFComplex
       7293168A28AA1851451401FFD9
     }
     Proportional = True
+  end
+  object EditdV: TEdit
+    Left = 312
+    Height = 23
+    Top = 24
+    Width = 80
+    TabOrder = 3
+    Text = '+/-dV'
+  end
+  object EditdM: TEdit
+    Left = 312
+    Height = 23
+    Top = 64
+    Width = 80
+    TabOrder = 4
+    Text = '+/-dm'
+  end
+  object Lbl_dRho: TLabel
+    Left = 16
+    Height = 15
+    Top = 128
+    Width = 62
+    Caption = '-абс пгрш-'
+    ParentColor = False
+  end
+  object Lbl_eps: TLabel
+    Left = 16
+    Height = 15
+    Top = 155
+    Width = 62
+    Caption = '-отн пгрш-'
+    ParentColor = False
+  end
+  object Label3: TLabel
+    Left = 296
+    Height = 15
+    Top = 24
+    Width = 8
+    Caption = '±'
+    ParentColor = False
+  end
+  object Label4: TLabel
+    Left = 296
+    Height = 15
+    Top = 64
+    Width = 8
+    Caption = '±'
+    ParentColor = False
   end
 end
