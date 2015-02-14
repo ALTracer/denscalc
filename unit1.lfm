@@ -1,0 +1,73 @@
+object FShapePicker: TFShapePicker
+  Left = 16
+  Height = 260
+  Top = 280
+  Width = 284
+  Caption = 'Выбор формы объекта'
+  ClientHeight = 260
+  ClientWidth = 284
+  OnCreate = FormCreate
+  LCLVersion = '1.2.6.0'
+  object BPickSphere: TButton
+    Left = 16
+    Height = 40
+    Top = 40
+    Width = 75
+    Caption = 'Шар'
+    OnClick = BPickSphereClick
+    TabOrder = 0
+  end
+  object LblInstruction: TLabel
+    Left = 16
+    Height = 15
+    Top = 16
+    Width = 263
+    Caption = 'Выберите форму исследуемой детали/объекта:'
+    ParentColor = False
+  end
+  object BPickCylinder: TButton
+    Left = 104
+    Height = 40
+    Top = 40
+    Width = 75
+    Caption = 'Цилиндр'
+    OnClick = BPickCylinderClick
+    TabOrder = 1
+  end
+  object BPickCube: TButton
+    Left = 16
+    Height = 40
+    Top = 96
+    Width = 75
+    Caption = 'Куб'
+    OnClick = BPickCubeClick
+    TabOrder = 2
+  end
+  object BPick3DBar: TButton
+    Left = 104
+    Height = 40
+    Top = 96
+    Width = 75
+    Caption = 'Брусок'
+    OnClick = BPick3DBarClick
+    TabOrder = 3
+  end
+  object BPickComplex: TButton
+    Left = 16
+    Height = 40
+    Top = 144
+    Width = 163
+    Caption = 'Нестандартный'
+    OnClick = BPickComplexClick
+    TabOrder = 4
+  end
+  object BGetDataTable: TButton
+    Left = 16
+    Height = 40
+    Top = 200
+    Width = 163
+    Caption = 'Считать таблицу плотностей'
+    OnClick = BGetDataTableClick
+    TabOrder = 5
+  end
+end
