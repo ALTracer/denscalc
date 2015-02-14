@@ -4,6 +4,12 @@
 *.exe
 *.o
 *.so
+lib/
+*.dbg
+
+# IDE session #
+###############
+*.lps
  
 # Packages #
 ############
