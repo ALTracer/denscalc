@@ -1,7 +1,7 @@
 object FCube: TFCube
-  Left = 316
+  Left = 256
   Height = 220
-  Top = 582
+  Top = 128
   Width = 440
   Caption = 'Деталь: куб'
   ClientHeight = 220

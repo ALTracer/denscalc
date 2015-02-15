@@ -1,7 +1,7 @@
 object FComplex: TFComplex
-  Left = 561
+  Left = 192
   Height = 296
-  Top = 849
+  Top = 192
   Width = 498
   Caption = 'Особая форма'
   ClientHeight = 296

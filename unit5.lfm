@@ -1,7 +1,7 @@
 object FBar: TFBar
-  Left = 770
+  Left = 224
   Height = 480
-  Top = 26
+  Top = 160
   Width = 330
   Caption = 'Деталь: брусок'
   ClientHeight = 480

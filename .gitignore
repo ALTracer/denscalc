@@ -24,6 +24,7 @@ lib/
 # Logs and databases #
 ######################
 *.log
+backup/
  
 # OS generated files #
 ######################

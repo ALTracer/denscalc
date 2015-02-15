@@ -1,7 +1,7 @@
 object FSphere: TFSphere
-  Left = 316
+  Left = 320
   Height = 220
-  Top = 26
+  Top = 64
   Width = 440
   Caption = 'Деталь: шар'
   ClientHeight = 220

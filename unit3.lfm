@@ -1,7 +1,7 @@
 object FCylinder: TFCylinder
-  Left = 316
+  Left = 288
   Height = 260
-  Top = 284
+  Top = 96
   Width = 440
   Caption = 'Деталь: цилиндр'
   ClientHeight = 260

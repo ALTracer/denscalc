@@ -1,7 +1,7 @@
 object FShapePicker: TFShapePicker
-  Left = 16
+  Left = 768
   Height = 260
-  Top = 280
+  Top = 128
   Width = 284
   Caption = 'Выбор формы объекта'
   ClientHeight = 260
