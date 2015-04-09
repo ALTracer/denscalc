@@ -1,11 +1,11 @@
 object FSphere: TFSphere
   Left = 320
-  Height = 220
+  Height = 239
   Top = 64
-  Width = 440
+  Width = 553
   Caption = 'Деталь: шар'
-  ClientHeight = 220
-  ClientWidth = 440
+  ClientHeight = 239
+  ClientWidth = 553
   LCLVersion = '1.2.6.0'
   object Label1: TLabel
     Left = 16
@@ -16,7 +16,7 @@ object FSphere: TFSphere
     ParentColor = False
   end
   object CBCompute: TButton
-    Left = 312
+    Left = 424
     Height = 47
     Top = 32
     Width = 75
@@ -82,7 +82,7 @@ object FSphere: TFSphere
     ParentColor = False
   end
   object Image1: TImage
-    Left = 296
+    Left = 409
     Height = 128
     Top = 92
     Width = 128
@@ -2223,5 +2223,37 @@ object FSphere: TFSphere
       1451451451451457FFD9
     }
     Proportional = True
+  end
+  object EditdM: TEdit
+    Left = 328
+    Height = 23
+    Top = 64
+    Width = 80
+    TabOrder = 3
+    Text = '+/-dm'
+  end
+  object EditdD: TEdit
+    Left = 328
+    Height = 23
+    Top = 24
+    Width = 80
+    TabOrder = 4
+    Text = '+/-dD'
+  end
+  object Label3: TLabel
+    Left = 312
+    Height = 15
+    Top = 24
+    Width = 8
+    Caption = '±'
+    ParentColor = False
+  end
+  object Label4: TLabel
+    Left = 312
+    Height = 15
+    Top = 64
+    Width = 8
+    Caption = '±'
+    ParentColor = False
   end
 end

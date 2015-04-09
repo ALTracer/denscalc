@@ -55,7 +55,7 @@ var
 implementation
 procedure TFShapePicker.BPickSphereClick(Sender:TObject);
 begin
-     FSphere.Show;
+     FSphere.Show; //Показать окно для шара
 end;
 
 procedure FindTableBound(var F:Text);
@@ -129,7 +129,7 @@ end;
 
 procedure TFShapePicker.BPick3DBarClick(Sender: TObject);
 begin
-  FBar.Show;
+  FBar.Show; // показать окно для бруска
 end;
 
 procedure TFShapePicker.BPickComplexClick(Sender : TObject);
@@ -144,7 +144,7 @@ end;
 
 procedure TFShapePicker.BPickCylinderClick(Sender:TObject);
 begin
-     FCylinder.Show;
+     FCylinder.Show; // показать окно для цилиндра
 end;
 
 procedure TFShapePicker.FormCreate(Sender: TObject);
